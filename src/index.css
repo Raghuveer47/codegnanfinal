@@ -1,0 +1,548 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Bruno Ace', cursive;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  font-family: Arial, sans-serif;
+}
+
+.register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://static.vecteezy.com/system/resources/previews/004/918/564/original/dark-blue-nebula-sparkle-purple-star-universe-in-outer-space-horizontal-galaxy-on-space-free-photo.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.rainbow {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  animation: rainbow 5s ease-in-out infinite;
+}
+
+@keyframes rainbow {
+ 
+}
+
+.registerbox {
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+}
+
+
+.joinus {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.regisform {
+  margin-bottom: 20px;
+}
+
+.regishead {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.registinputs {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.registbtn {
+  width: 100%;
+  padding: 10px;
+  background-color: #1976d2;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.cant {
+  text-align: center;
+  font-size: 14px;
+}
+
+.regisli {
+  color: #1976d2;
+  text-decoration: none;
+}
+
+.singin {
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.google-btn {
+  display: inline-block;
+  background-color: #fff;
+  color: #757575;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 8px 14px;
+  cursor: pointer;
+}
+
+.google-btn:hover {
+  background-color: #f1f1f1;
+}
+
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://static.vecteezy.com/system/resources/previews/004/918/564/original/dark-blue-nebula-sparkle-purple-star-universe-in-outer-space-horizontal-galaxy-on-space-free-photo.jpg');
+}
+
+.loginbox {
+  width: 400px;
+  padding: 40px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.welcomeback {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.loginform {
+  margin-top: 20px;
+}
+
+.loginheading {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.logininputs {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.loginsubtn {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.loginsubtn:hover {
+  background-color: #45a049;
+}
+
+.googlesign {
+  margin-top: 20px;
+}
+
+.cant {
+  margin-top: 20px;
+}
+
+
+.regisli a {
+  color: #4caf50;
+  text-decoration: none;
+}
+
+.regisli a:hover {
+  text-decoration: underline;
+}
+
+.sidebar {
+  width: 200px; /* Adjust the width as needed */
+  height: 100%; /* Adjust the height as needed */
+  background-color: #f2f2f2; /* Set the background color */
+  position: fixed;
+  left: 0;
+  top: 0;
+  font-family: 'Roboto Slab', serif;
+  font-size: large;
+
+}
+
+.navele {
+  padding: 10px; /* Adjust the padding as needed */
+}
+
+.sidenavbtns {
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+  border-color: #808080;
+  border-radius: 20px;
+  color: #333; /* Set the text color */
+}
+
+.sidenavbtns:hover {
+  background-color: #ddd; /* Set the background color on hover */
+}
+
+.GoogleLogout {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #333; /* Set the text color */
+  cursor: pointer;
+}
+
+.GoogleLogout:hover {
+  background-color: #ddd; /* Set the background color on hover */
+}
+
+.logout-container {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  border-radius: 10px;
+  border-color: #020410;
+}
+
+.loginbox form a {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  color: #1b1b1c;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: .5s;
+  margin-top: 40px;
+  letter-spacing: 4px
+}
+
+.loginbox a:hover {
+  background: #022325;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #0e0216,
+              0 0 25px #01011c,
+              0 0 50px #011314,
+              0 0 100px #0d0523;
+}
+
+.loginbox a span {
+  position: absolute;
+  display: block;
+}
+
+.loginbox a span:nth-child(1) {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #021112);
+  animation: btn-anim1 1s linear infinite;
+}
+
+@keyframes btn-anim1 {
+  0% {
+    left: -100%;
+  }
+  50%,100% {
+    left: 100%;
+  }
+}
+
+.loginbox a span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #022a2c);
+  animation: btn-anim2 1s linear infinite;
+  animation-delay: .25s
+}
+
+@keyframes btn-anim2 {
+  0% {
+    top: -100%;
+  }
+  50%,100% {
+    top: 100%;
+  }
+}
+
+.loginbox a span:nth-child(3) {
+  bottom: 0;
+  right: -100%;
+  width: 50%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, #010606);
+  animation: btn-anim3 1s linear infinite;
+  animation-delay: .5s
+}
+
+@keyframes btn-anim3 {
+  0% {
+    right: -100%;
+  }
+  50%,100% {
+    right: 100%;
+  }
+}
+
+.loginbox a span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 50%;
+  background: linear-gradient(360deg, transparent, #020410);
+  animation: btn-anim4 1s linear infinite;
+  animation-delay: .75s
+}
+
+@keyframes btn-anim4 {
+  0% {
+    bottom: -100%;
+  }
+  50%,100% {
+    bottom: 100%;
+  }
+}
+
+
+.rainbow {
+  
+  border-radius: 10px;
+  padding: 2rem;
+
+
+  font-size: 1.5em;
+
+  --border-size: 0.3rem;
+  border: var(--border-size) solid transparent;
+
+  /* Paint an image in the border */
+  border-image: conic-gradient(
+      from var(--angle),
+      #d53e33 0deg 90deg,
+      #fbb300 90deg 180deg,
+      #377af5 180deg 270deg,
+      #399953 270deg 360deg
+    )
+    1 stretch;
+  background: rgb(255 255 255 / var(--opacity));
+}
+
+@supports (background: paint(houdini)) {
+  @property --opacity {
+    syntax: "<number>";
+    initial-value: 0.5;
+    inherits: false;
+  }
+
+  @property --angle {
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+  }
+
+  @keyframes opacityChange {
+    to {
+      --opacity: 1;
+    }
+  }
+
+  @keyframes rotate {
+    to {
+      --angle: 360deg;
+    }
+  }
+
+  .rainbow {
+    animation: rotate 4s linear infinite, opacityChange 3s infinite alternate;
+  }
+.posts{
+display:flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+}
+.singlepost {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(86, 158, 176, 0.1);
+  padding: 8px 1.5rem;
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 200px;
+  border: 5%;
+  height: 250px; /* Adjust the height as per your requirement */
+}
+
+.userimg img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.username {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.userpost {
+  margin-bottom: 10px;
+}
+
+.userpost img {
+  width: 100%;
+  height: 250px; /* Adjust the height of the image as per your requirement */
+  object-fit: cover; /* Ensures the image covers the entire container */
+  border-radius: 8px;
+}
+
+@media (min-width: 768px) {
+  .singlepost {
+    width: 500px;
+    height: 500px; /* Adjust the height for larger screens */
+  }
+
+  .userpost img {
+    height: 350px; /* Adjust the height of the image for larger screens */
+  }
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.navbarhm {
+  margin-bottom: 20px;
+}
+
+.homewrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.askques {
+  display: flex;
+  align-items: center;
+  margin-left: 200px;
+
+}
+
+.askques h1 {
+  font-size: 24px;
+  margin: 0;
+  margin-right: 10px;
+}
+
+.fedpostlink {
+  cursor: pointer;
+  font-size: 24px;
+}
+.postdiaopen form {
+  display: flex;
+  flex-direction: column;
+}
+
+.postdiaopen input[type="text"] {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.postdiaopen input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .homewrap {
+    max-width: 100%;
+  }
+}
+
+.Profile {
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+.profile-user {
+  display: flex;
+  align-items: center;
+}
+
+.profile-img img {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.profile-name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.profile-email {
+  font-size: 16px;
+  color: #888;
+}
